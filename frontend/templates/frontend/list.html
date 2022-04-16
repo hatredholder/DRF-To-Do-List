@@ -124,13 +124,12 @@
           .then(function(data){
             console.log('Data:', data)
 
-            var list = data
-            for (var i in list){
+            for (var i in data){
 
               var item = `
                 <div id="data-row-${i}" class="task-wrapper flex-wrapper">
                     <div style="flex:7">
-                        <span class="title">${list[i].title}</span>
+                        <span class="title">${data[i].title}</span>
                     </div>
                     <div style="flex:1">
                       <button class="btn btn-sm btn-outline-info edit">Edit</button>
@@ -141,6 +140,13 @@
                 </div>
               `
               wrapper.innerHTML += item
+
+            }
+            for (var i in data){
+              var editBtn = document.getElementsByClassName('edit')[i]
+              editBtn.addEventListener('click', function(){
+                editItem()
+            })
             }
           })
       }
@@ -158,11 +164,15 @@
           },
           body:JSON.stringify({'title':title})
         }
-        ).then(function(response){
+        ).then(function(){
           buildList()
           document.getElementById('form').reset()
         })
       })
+
+      function editItem(){
+        console.log('Item Clicked')
+      }
 
     </script>
 
