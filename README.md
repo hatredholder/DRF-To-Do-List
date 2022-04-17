@@ -1,6 +1,6 @@
 # DRF-To-Do-List
 
-A simple to-do list made with Django and Django REST Framework.
+A simple to-do list made to practice Django REST Framework.
 
 Functionality: Add a new Task; Edit a Task; Delete a Task.
 
