@@ -1,4 +1,4 @@
-# DRF-To-Do-List
+# DRF To Do List
 
 A simple to-do list made to practice Django REST Framework.
 
