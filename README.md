@@ -2,6 +2,8 @@
 
 A simple to-do list made to practice Django REST Framework.
 
+Doesn't refresh the page when an action is made.
+
 Functionality: Add a new Task; Edit a Task; Delete a Task.
 
 Frontend: CSS, Bootstrap 5.1.
