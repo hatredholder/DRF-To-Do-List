@@ -2,6 +2,8 @@
 
 A simple to-do list made to practice Django REST Framework.
 
+Also added a Dockerfile to test out how Docker works with Django.
+
 Backend is connected with AJAX so doesn't refresh the page when an action is made.
 
 Functionality: Add a new Task; Edit a Task; Delete a Task.
