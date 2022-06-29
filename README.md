@@ -6,9 +6,9 @@ Also added a Dockerfile to test out how Docker works with Django.
 
 Backend is connected with AJAX so it doesn't refresh the page when an action is made.
 
-# Technologies
-
 Functionality: Add a new Task; Edit a Task; Delete a Task.
+
+# Technologies
 
 Frontend: CSS, Bootstrap 5.1.
 
