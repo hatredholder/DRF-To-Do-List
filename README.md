@@ -14,7 +14,7 @@ Backend is connected with AJAX so it doesn't refresh the page when an action is 
 
 1. Clone this repository
 2. Start a new Virtualenv, activate it, type in console `pip install -r requirements.txt`
-3. Run the Django Server by typing in console `py manage.py runserver`
+3. Run the Django Server by typing in console `python manage.py runserver`
 
 ## Technologies
 
